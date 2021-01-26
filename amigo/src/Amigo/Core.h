@@ -6,6 +6,4 @@
     #else
         #define AMIGO_API __declspec(dllimport)
     #endif
-#else
-    #error Amigo only supports Windows! 
 #endif
