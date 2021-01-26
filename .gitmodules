@@ -1,0 +1,3 @@
+[submodule "Amigo/vendor/spdlog"]
+	path = Amigo/vendor/spdlog
+	url = https://github.com/gabime/spdlog

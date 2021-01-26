@@ -7,6 +7,7 @@
  */
 
 #include "Amigo/Application.h"
+#include "Amigo/Log.h"
 
 /*
  * ----------Entry Point----------

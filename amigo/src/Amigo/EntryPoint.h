@@ -6,11 +6,14 @@ extern Amigo::Application* Amigo::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Amigo Engine\n");
-	auto app = Amigo::CreateApplication();
-	app->Run();
-	delete app;
-	return 0;
+    Amigo::Log::Init();
+    AMIGO_CORE_WARN("Initialized Log!");
+    AMIGO_CLIENT_INFO("Hello I am Client!");
+
+    auto app = Amigo::CreateApplication();
+    app->Run();
+    delete app;
+    return 0;
 }
 
 #endif
